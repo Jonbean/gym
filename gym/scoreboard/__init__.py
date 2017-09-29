@@ -187,6 +187,14 @@ swing it up so it stays upright.
 """
 )
 
+add_task(
+    id='MultiAgentsEnv-v0',
+    summary="multiagents emergence of compositional language",
+    group='classic_control',
+    description='replication of multiagents communication work. will include more features in the future',
+    contributor='Jon Tsai',
+)
+
 # algorithmic
 
 add_task(

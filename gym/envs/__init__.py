@@ -90,6 +90,12 @@ register(
     max_episode_steps=500,
 )
 
+register(
+    id='MultiAgents-v0',
+    entry_point='gym.envs.classic_control:MultiAgentsEnv',
+    max_episode_steps=1000,
+)
+
 # Box2d
 # ----------------------------------------
 
